@@ -1,0 +1,78 @@
+
+
+/* Container for the entire detail page */
+.one-store-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header styling with a gradient background and soft shadow */
+  .one-store-header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .one-store-header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Link for going back home */
+  .one-store-header .back-link {
+    margin-top: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+  
+  /* Main detail card styling */
+  .one-store-main {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .one-store-main p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Footer with the Edit button */
+  .one-store-footer {
+    text-align: center;
+  }
+  
+  .one-store-footer button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .one-store-footer button:hover {
+    background-color: #feb47b;
+  }
+  
+  /* Loading state */
+  .one-store-loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666;
+  }
+  

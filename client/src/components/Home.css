@@ -1,0 +1,98 @@
+
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header styling with a gradient background and soft drop-shadow */
+  .header {
+    background: linear-gradient(90deg, #0d6efd, #6610f2);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.75rem;
+    margin: 0 0 10px;
+  }
+  
+  .header h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  /* Main content styling */
+  .main {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table styling for displaying stores */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table thead tr {
+    background-color: #f8f9fa;
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  table tr {
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease;
+  }
+  
+  table tr:hover {
+    background-color: #f1f3f5;
+  }
+  
+  /* Link styling */
+  table td a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  table td a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0b5ed7;
+    transform: scale(1.02);
+  }
+  
+  /* Container for the Add Store button */
+  .add-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
