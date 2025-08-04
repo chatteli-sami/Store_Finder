@@ -4,13 +4,15 @@ import Home from './components/Home'
 import OneStore from './views/OneStore'
 import CreateStore from './views/CreateStore'
 import UpdateStore from './views/UpdateStore'
+import Landing from './views/Landing'
 import './App.css'
 
 const App = () => {
   return (
     <div>
       <Routes>
-        <Route path='home' element={<Home/>}/>
+        <Route path='/' element={<Landing/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/stores/add' element={<CreateStore/>}/>
         <Route path='/stores/edit/:id' element={<UpdateStore/>}/>
         <Route path='/stores/oneStore/:id' element={<OneStore/>}/>
